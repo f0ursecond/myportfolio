@@ -3,18 +3,19 @@ import Zoom from "react-reveal/Zoom";
 
 function About() {
   return (
-    <div className="w-full h-screen ">
+    <div className="w-full h-full ">
       <div className="w-full max-w-[1024px] h-full p-2 mx-auto flex justify-start items-center">
         <Zoom>
           <div className="">
             <div className="justify-start">
-              <h1 className="font-semibold text-2xl font-poppins text-[#eebbc3]">
-                About Me
+              <h1 className="font-semibold mt-4 text-2xl font-poppins text-[#eebbc3]">
+                About Me :
               </h1>
-              <h6 className="font-semibold text-2xl font-poppins text-[#eebbc3]">
-                <span className="text-white">My Name is</span> Alif Zulfanur
+              <h6 className="font-semibold text-2xl font-poppins text-[#eebbc3]  border-b-2 ">
+                <span className="text-white">My Name is</span> Alif Zulfanur Said Ramadhan
               </h6>
               <br></br>
+              
               <ul>
                 <li className="list-disc text-white">
                   <p className="font-normal text-base font-poppins text-left  text-[#fffffe]">
