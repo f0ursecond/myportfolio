@@ -11,17 +11,17 @@ function Navbar() {
             <Link to="/">Alif <span className="text-[#eebbc3]">Zulfanur</span></Link>
           </h1>
           <ul className="flex">
-            <li className="hover:text-rose-400 mx-2 cursor-pointer text-white uppercase text-base lg:text-base">
+            <li className="hover:text-rose-400 mx-2 font-Delius cursor-pointer text-white  text-base lg:text-xl">
               <Link to="/contact">Contact</Link>
             </li>
-            <li className="hover:text-rose-400 mx-2  cursor-pointer text-white uppercase text-base lg:text-base">
+            <li className="hover:text-rose-400 mx-2 font-Delius  cursor-pointer text-white  text-base lg:text-xl">
               <Link to="/project">Projects</Link>
             </li>
-            <li className="hover:text-rose-400 mx-2 cursor-pointer text-white uppercase text-base lg:text-base">
+            <li className="hover:text-rose-400 mx-2 font-Delius cursor-pointer text-white  text-base lg:text-xl">
               Github
             </li>
             
-            <li className="hover:text-rose-400 mx-2 cursor-pointer text-white uppercase text-base lg:text-base">
+            <li className="hover:text-rose-400 mx-2 font-Delius cursor-pointer text-white  text-base lg:text-xl">
               <Link to="/about">About Me</Link>
             </li>
           </ul>

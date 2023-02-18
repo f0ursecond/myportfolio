@@ -23,10 +23,10 @@ function Header() {
             ]} typeSpeed={ 120 } loop />
             </div>
             
-              <p className='py-4 text-[#b8c1ec] sm:max-w-[70%] text-lg lg:text-4l m-auto font-poppins'>
-                I'm currently as a student who interesting for a front-end web developer,flutter,mobile dev,cyber security & anything about technology
-                specializing in flutter exceptional digital experience. Curently, 
-                I’m focused on flutter / mobile ap & sometimes focus on front-end web applications
+              <p className='py-4 text-[#b8c1ec] sm:max-w-[70%] text-lg lg:text-xl m-auto font-Delius'>
+                I'm currently as a student who interesting for a front-end web developer,flutter,mobile dev,cyber security & anything about technology.
+                Specializing in flutter exceptional digital experience. Curently, 
+                I’m focused on flutter / mobile ap & sometimes learning on front-end web applications
                 while learning back-end technologies.
               </p>
             

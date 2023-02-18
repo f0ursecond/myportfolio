@@ -9,7 +9,9 @@ module.exports = {
   ],
   theme: {
     fontFamily: {
+      'Delius': ['Delius', 'cursive'],
       'poppins': ['Poppins', 'sans-serif'],
+      'patrick': ['Patrick Hand','cursive'],
     },
     extend: {
       backgroundImage: {

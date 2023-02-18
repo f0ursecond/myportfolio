@@ -23,12 +23,12 @@ function About() {
                       Background :
                     </span>
                     <br></br>
-                    <p>
+                    <p className="text-white font-Delius text-lg">
                       Saya adalah seorang pelajar SMK di Semarang , Saya
                       mempunyai ketertarikan di bidang Komputer dan saya suka
                       mendalami Hardware & Software komputer juga . Saya saat
                       ini sedang fokus mempelajari Mobile Developer terutama
-                      Flutter . <br></br>
+                      Flutter<br></br>
                       <br></br>
                       Cupidatat cillum commodo culpa laborum qui tempor sunt.
                       Minim adipisicing irure consequat fugiat tempor dolor
