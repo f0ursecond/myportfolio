@@ -9,6 +9,21 @@ import {
 } from "react-icons/ai";
 
 function Contact() {
+  let sosmed = [
+    {
+      link: "https://github.com/f0ursecond",
+      icon: <AiOutlineGithub />,
+    },
+    {
+      link: "https://instagram.com/a.zulfanur_",
+      icon: <AiOutlineInstagram />,
+    },
+    {
+      link: "https://twitter.com/ZulfanurAlif",
+      icon: <AiOutlineTwitter />,
+    },
+  ];
+
   return (
     <div className="w-full h-screen p-2  ">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 items-center">
@@ -52,24 +67,26 @@ function Contact() {
                   <td>
                     <input
                       type="submit"
-                      className="bg-white hover:bg-cyan-400 duration-75 rounded-lg p-2 mt-6 font-patrick"
+                      className="bg-[#eebbc3] w-1/2 -tracking-tighter hover:translate-y-1 duration-75 rounded-lg p-2 mt-6 font-patrick"
                     ></input>
                   </td>
                 </tr>
               </table>
             </div>
           </div>
-          <div className="">
-            <div className="h-full w-auto flex justify-evenly  p-4 rounded-lg">
-              <div className="h-10 w-10 bg-[#232946] rounded-md">
-                <AiOutlineInstagram className="text-white h-10 w-10  "></AiOutlineInstagram>
-              </div>
-              <div className="h-10 w-10 bg-[#232946] rounded-md">
-                <AiOutlineGithub className="text-white h-10 w-10  "></AiOutlineGithub>
-              </div>
-              <div className="h-10 w-10 bg-[#232946] rounded-md">
-                <AiOutlineTwitter className="text-white h-10 w-10  "></AiOutlineTwitter>
-              </div>
+          <div className="justify-center text-center w-full  p-6  rounded-lg">
+            <div className="h-full w-1/2 inline-flex justify-between items-center p-4 rounded-lg">
+              {sosmed.map((links) => (
+                <a
+                  href={links.link}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-white justify-between hover:text-[#eebbc3] duration-200 h-auto"
+                >
+                  {links.icon}
+                  
+                </a>
+              ))}
             </div>
           </div>
         </Bounce>
