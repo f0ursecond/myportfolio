@@ -83,8 +83,7 @@ function Contact() {
                   rel="noreferrer"
                   className="text-white justify-between hover:text-[#eebbc3] duration-200 h-auto"
                 >
-                  {links.icon}
-                  
+                  {links.icon} 
                 </a>
               ))}
             </div>
