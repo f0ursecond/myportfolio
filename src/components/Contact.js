@@ -1,6 +1,6 @@
 import React from "react";
 
-// import { Player, Controls } from "@lottiefiles/react-lottie-player";
+
 import Bounce from "react-reveal/Bounce";
 import {
   AiOutlineInstagram,
