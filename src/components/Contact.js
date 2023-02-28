@@ -67,7 +67,7 @@ function Contact() {
                   <td>
                     <input
                       type="submit"
-                      className="bg-[#eebbc3] w-1/2 -tracking-tighter hover:translate-y-1 duration-75 rounded-lg p-2 mt-6 font-patrick"
+                      className="bg-[#eebbc3] w-1/2 text-[#121629] -tracking-tighter hover:translate-y-1 duration-75 rounded-lg p-2 mt-6 font-patrick"
                     ></input>
                   </td>
                 </tr>
