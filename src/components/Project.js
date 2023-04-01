@@ -8,11 +8,11 @@ function Project() {
       <div className="w-full h-full p-2 mx-auto flex justify-start items-center">
         <div className=" mx-auto">
           <div className="justify-start">
-            <h1 className="font-semibold duration-100 mt-4 text-2xl font-poppins text-[#eebbc3]">
-              My Project :
-            </h1>
-            <br></br>
             <Bounce left>
+            <h1 className="font-semibold duration-100 mt-4 text-2xl font-poppins text-[#eebbc3]">
+              <span className="text-white">My</span> Project :
+            </h1>
+            <br></br>         
               <div className="w-full h-auto mx-auto grid-cols-4 gap-4 flex flex-wrap">
                 <div class="max-w-sm rounded overflow-hidden shadow-lg  bg-white">
                   <img
@@ -95,7 +95,9 @@ function Project() {
                   </div>
                 </div>
               </div>
-            </Bounce>
+          </Bounce>
+            
+            
             <br></br>
           </div>
         </div>
