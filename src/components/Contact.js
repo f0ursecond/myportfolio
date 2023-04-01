@@ -1,6 +1,6 @@
 import React from "react";
 
-
+// import { Player, Controls } from "@lottiefiles/react-lottie-player";
 import Bounce from "react-reveal/Bounce";
 import {
   AiOutlineInstagram,
@@ -8,24 +8,21 @@ import {
   AiOutlineTwitter,
 } from "react-icons/ai";
 
-
-
-
 function Contact() {
   let sosmed = [
     {
-      link: 'https://instagram.com/a.zulfanur_',
-      icon: <AiOutlineInstagram/>,
+      link: "https://instagram.com/a.zulfanur_",
+      icon: <AiOutlineInstagram />,
     },
     {
-      link: 'https://github.com/f0ursecond',
-      icon: <AiOutlineGithub/>
+      link: "https://github.com/f0ursecond",
+      icon: <AiOutlineGithub />,
     },
     {
-      link: 'https://twitter.com/ZulfanurAlif',
-      icon: <AiOutlineTwitter/>
+      link: "https://twitter.com/ZulfanurAlif",
+      icon: <AiOutlineTwitter />,
     },
-  ]
+  ];
   return (
     <div className="w-full h-screen p-2  ">
       <div className="max-w-[1240px] w-full h-full mx-auto p-2 items-center">
@@ -36,7 +33,6 @@ function Contact() {
           <div className="px-4 h-1/2 py-4 ">
             <div className="w-full  p-4 text-center ">
               <table className="w-full ">
-                <tbody>
                 <tr>
                   <td>
                     <input
@@ -74,23 +70,19 @@ function Contact() {
                     ></input>
                   </td>
                 </tr>
-                </tbody>
-                
               </table>
             </div>
           </div>
           <div className="">
             <div className="h-full w-auto flex justify-evenly  p-4 rounded-lg">
               <>
-                {
-                  sosmed.map((link) => (
-                    <div className="mt-6"> 
-                      <div className="text-[#eebbc3] hover:text-slate-400 duration-75">
-                        <a href={link.link}>{ link.icon }</a>
-                      </div>
+                {sosmed.map((link) => (
+                  <div className="mt-6">
+                    <div className="text-[#eebbc3] hover:text-slate-400 duration-75">
+                      <a href={link.link}>{link.icon}</a>
                     </div>
-                  ))
-                }
+                  </div>
+                ))}
               </>
             </div>
           </div>
