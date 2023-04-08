@@ -1,13 +1,2 @@
-import React from 'react'
-
-function Testing() {
-  return (
-      <div>Testing
-          <a>UPDATEEE</a>
-          <a>UPDATEEE KE 2</a>
-          
-    </div>
-  )
-}
-
-export default Testing
+console.log('this is test')
+console.log('this is 2 line')
