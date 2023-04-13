@@ -1,13 +1,11 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
-// import { useState } from "react";
-// import menu from "./images/menu.svg";
-// import close from "./images/x.svg";
+import Kontak from "./modal/Kontak";
 
 function Navbar() {
   let Links = [
-    { name: "Contact", link: "/contact" },
+    { name: <Kontak />, link: "" },
     { name: "Project", link: "/project" },
     { name: "About Me", link: "/about" },
     { name: "Gihtub", link: "/" },
