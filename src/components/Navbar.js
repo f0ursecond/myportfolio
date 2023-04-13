@@ -8,7 +8,6 @@ function Navbar() {
     { name: <Kontak />, link: "" },
     { name: "Project", link: "/project" },
     { name: "About Me", link: "/about" },
-    { name: "Gihtub", link: "/" },
   ];
 
   return (
