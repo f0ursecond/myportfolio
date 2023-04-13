@@ -5,9 +5,9 @@ import Kontak from "./modal/Kontak";
 
 function Navbar() {
   let Links = [
-    { name: <Kontak />, link: "" },
-    { name: "Project", link: "/project" },
     { name: "About Me", link: "/about" },
+    { name: "Projects", link: "/project" },
+    { name: <Kontak />, link: "" },
   ];
 
   return (
