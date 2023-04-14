@@ -3,6 +3,8 @@ import Bounce from "react-reveal/Bounce";
 import card from "./images/card-top.jpg";
 import cursed from "./images/okee.png";
 import quran from "./images/quran.png";
+import koperasi from "./images/koperasi.png";
+import firebase from "./images/firebase.png";
 
 function Project() {
   let projects = [
@@ -27,7 +29,7 @@ function Project() {
       link: "https://github.com/f0ursecond/login-ui-firebase",
       description:
         "Projek Aplikasi Android membuat page login dengan memadukan authentication menggunakan Firebase",
-      image: card,
+      image: firebase,
       tag: "Flutter",
     },
     {
@@ -51,7 +53,7 @@ function Project() {
       link: "https://github.com/f0ursecond/rest-api",
       description:
         "Projek flutter UI sederhana, tanpa backend , dan hanya front end nya saja",
-      image: card,
+      image: koperasi,
       tag: "Flutter",
     },
   ];
