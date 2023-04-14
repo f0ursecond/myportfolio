@@ -2,6 +2,7 @@ import React from "react";
 import Bounce from "react-reveal/Bounce";
 import card from "./images/card-top.jpg";
 import cursed from "./images/okee.png";
+import quran from "./images/quran.png";
 
 function Project() {
   let projects = [
@@ -15,10 +16,10 @@ function Project() {
     },
     {
       name: "Al Quran App",
-      link: "https://github.com/f0ursecond/quran_app",
+      link: "https://github.com/f0ursecond/alquran",
       description:
         "Projek Aplikasi Android yaitu membuat AL Quran App, ini sebenarnya belom 100% jadi karena saya hanya mencoba untuk fetch API dari internet saja",
-      image: card,
+      image: quran,
       tag: "Flutter",
     },
     {
