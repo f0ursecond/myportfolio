@@ -1,14 +1,15 @@
 import React from "react";
 import Bounce from "react-reveal/Bounce";
 import card from "./images/card-top.jpg";
+import cursed from './images/cursed.png';
 
 function Project() {
   let projects = [
     {
       name: "The Cursed Night At School",
       link: "https://cursed-night.netlify.app/",
-      description: "Project membuat webiste untuk tugas akhir sekolah yaitu project game. Disini saya sebagai frontend developer ",
-      image: card,
+      description: "Project membuat website untuk tugas akhir sekolah yaitu project game. Disini saya sebagai frontend developer ",
+      image: cursed,
       tag: "React JS & Tailwindcss",
     },
     {
