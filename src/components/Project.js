@@ -47,12 +47,12 @@ function Project() {
       tag: "Java & Android Studio",
     },
     {
-      name: "Membuat Rest API menggunakan express dan sequelize",
+      name: "Membuat UI Koperasi Rakyat",
       link: "https://github.com/f0ursecond/rest-api",
       description:
-        "Projek restapi sederhana, untuk sekadar penasaran bagaimana sebenarnya api bisa terbuat",
+        "Projek flutter UI sederhana, tanpa backend , dan hanya front end nya saja",
       image: card,
-      tag: "Javascript & NodeJS & Express & Mysql",
+      tag: "Flutter",
     },
   ];
   return (
