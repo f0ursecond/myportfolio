@@ -1,10 +1,12 @@
 import React from "react";
 import Bounce from "react-reveal/Bounce";
-import card from "./images/card-top.jpg";
+// import card from "./images/card-top.jpg";
 import cursed from "./images/okee.png";
 import quran from "./images/quran.png";
 import koperasi from "./images/koperasi.png";
 import firebase from "./images/firebase.png";
+import cafe from "./images/cafe.png";
+import crocodic from "./images/crocodic1.png";
 
 function Project() {
   let projects = [
@@ -22,7 +24,7 @@ function Project() {
       description:
         "Projek Aplikasi Android yaitu membuat AL Quran App, ini sebenarnya belom 100% jadi karena saya hanya mencoba untuk fetch API dari internet saja",
       image: quran,
-      tag: "Flutter",
+      tag: "Dart & Flutter",
     },
     {
       name: "Login Page with Firebase",
@@ -30,23 +32,23 @@ function Project() {
       description:
         "Projek Aplikasi Android membuat page login dengan memadukan authentication menggunakan Firebase",
       image: firebase,
-      tag: "Flutter",
+      tag: "Dart & Flutter",
     },
     {
       name: "CRUD menggunakan PHP Native",
       link: "https://github.com/f0ursecond/cafe",
       description:
         "Projek Website sekolah membuat smart cafe, menggunakan php native dan Tailwind CSS",
-      image: card,
+      image: cafe,
       tag: "Tailwindcss & Php Native",
     },
     {
-      name: "Simple login page UI",
-      link: "/https://github.com/f0ursecond/loginapp",
+      name: "Crocodic Academy UI",
+      link: "https://github.com/f0ursecond/crocodic_login",
       description:
-        "Projek Aplikasi login sederhana, hanya menggunakan if else saja , karena ini pertama kali saya menggunakan android studio dan java",
-      image: card,
-      tag: "Java & Android Studio",
+        "Projek Aplikasi login sederhana, tugas kelas industri , menggunakan flutter",
+      image: crocodic,
+      tag: "Dart & Flutter",
     },
     {
       name: "Membuat UI Koperasi Rakyat",
@@ -54,7 +56,7 @@ function Project() {
       description:
         "Projek flutter UI sederhana, tanpa backend , dan hanya front end nya saja",
       image: koperasi,
-      tag: "Flutter",
+      tag: "Dart & Flutter",
     },
   ];
   return (
