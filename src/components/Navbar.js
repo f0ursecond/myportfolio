@@ -1,13 +1,13 @@
 import React from "react";
 import Fade from "react-reveal/Fade";
 import { Link } from "react-router-dom";
-import Kontak from "./modal/Kontak";
+
 
 function Navbar() {
   let Links = [
     { name: "About Me", link: "/about" },
     { name: "Projects", link: "/project" },
-    { name: <Kontak />, link: "" },
+    
   ];
 
   return (
