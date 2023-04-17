@@ -52,7 +52,7 @@ function Project() {
     },
     {
       name: "Membuat UI Koperasi Rakyat",
-      link: "https://github.com/f0ursecond/rest-api",
+      link: "https://github.com/f0ursecond/koperasi_rakyat",
       description:
         "Projek flutter UI sederhana, tanpa backend , dan hanya front end nya saja",
       image: koperasi,
