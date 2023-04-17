@@ -67,12 +67,12 @@ function About() {
                     </span>
                     <br></br>
                   </p>
-                  <div className="mx-auto  h-20 p-4">
-                    <div className=" lg:flex block justify-between ">
-                      <FaJs className="h-12 w-12" />
-                      <FaGitAlt className="h-12 w-12" />
-                      <FaAndroid className="h-12 w-12" />
-                      <SiDart className="h-12 w-12" />
+                  <div className="mx-auto lg:h-20 h-12 p-4">
+                    <div className=" flex  justify-between ">
+                      <FaJs className="lg:h-12 lg:w-12 h-6 w-6" />
+                      <FaGitAlt className="lg:h-12 lg:w-12 h-6 w-6" />
+                      <FaAndroid className="lg:h-12 lg:w-12 h-6 w-6" />
+                      <SiDart className="lg:h-12 lg:w-12 h-6 w-6" />
                     </div>
                   </div>
                 </li>
@@ -83,17 +83,17 @@ function About() {
                     </span>
                     <br></br>
                   </p>
-                  <div className="mx-auto  h-20 p-4">
-                    <div className=" lg:flex block justify-between ">
+                  <div className="mx-auto lg:h-20 h-12 p-4">
+                    <div className="flex  justify-between ">
                       <a target="blank" href="https://github.com/f0ursecond">
-                        <FaGithub className="h-12 w-12" />
+                        <FaGithub className="lg:h-12 lg:w-12 h-6 w-6" />
                       </a>
                       <a target="blank" href="https://www.linkedin.com/in/azulfanur/">
-                        <FaLinkedin className="h-12 w-12" />
+                        <FaLinkedin className="lg:h-12 lg:w-12 h-6 w-6" />
                       </a>
                       
                       <a target="blank" href="https://instagram.com/a.zulfanur_">
-                        <FaInstagram className="h-12 w-12" />
+                        <FaInstagram className="lg:h-12 lg:w-12 h-6 w-6" />
                       </a>
                     </div>
                   </div>
