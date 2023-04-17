@@ -20,8 +20,6 @@ function Kontak() {
     setTimeout(() => {
       console.log('Loadingg....')
     }, 1000);
-
-    
   }
 
   const [open, setOpen] = useState(false);
